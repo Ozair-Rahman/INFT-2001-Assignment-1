@@ -8,7 +8,6 @@ function App() {
     <div className="App">
       <a href='./Components/About'>About Page</a>
       <HomeComponent />
-      <AboutComponent />
       <ContactComponent />
       <ProductComponent />
     </div>
