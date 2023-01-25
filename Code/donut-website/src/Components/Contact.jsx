@@ -1,8 +1,17 @@
 const ContactComponent = () => {
-    return ( 
+  return (
     <div className="ContactComponentContent">
-        <header>Contact Component</header>
-    </div> );
-}
- 
+      <header>Contact Component</header>
+      <h1>Contact Us</h1>
+      <h2>Name</h2>
+      <input type="text" />
+      <h2>Subject</h2>
+      <input type="text" />
+      <h2>Message</h2>
+      <textarea rows="4" cols="50"></textarea>
+      <button>Send</button>
+    </div>
+  );
+};
+
 export default ContactComponent;
