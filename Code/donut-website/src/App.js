@@ -1,4 +1,3 @@
-import './App.css';
 import AboutComponent from './Components/About';
 import ProductComponent from './Components/Product';
 import HomeComponent from './Components/Home';
@@ -8,9 +7,9 @@ import NavBar from './Components/NavBar';
 function App() {
   return (
     <div className="App">
+      <a href='./Components/About'>About Page</a>
       <NavBar/>
       <HomeComponent />
-      <AboutComponent />
       <ContactComponent />
       <ProductComponent />
     </div>
