@@ -1,0 +1,30 @@
+/*General Styling*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.optionFourOption {
+    border: solid 1px black;
+    background-color: peachpuff;
+    margin: 1rem;
+}
+
+.optionThreeOption {
+    border: solid 1px black;
+    background-color: peachpuff;
+    margin: 1rem;
+}
+
+.optionTwoOption {
+    border: solid 1px black;
+    background-color: peachpuff;
+    margin: 1rem;
+}
+
+.optionOneOption {
+    border: solid 1px black;
+    background-color: peachpuff;
+    margin: 1rem;
+}
