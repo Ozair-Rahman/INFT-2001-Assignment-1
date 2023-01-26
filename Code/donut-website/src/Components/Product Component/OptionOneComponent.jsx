@@ -1,7 +1,7 @@
 const OptionOneComponent = () => {
     return ( 
         <div className="optionOneComponentContainer">
-            <h1>Hello World</h1>
+            <h1>Product One Component</h1>
         </div>
      );
 }
