@@ -5,26 +5,44 @@
     box-sizing: border-box;
 }
 
+
+/*Product Component Styling ====================================================================================*/
 .optionFourOption {
     border: solid 1px black;
     background-color: peachpuff;
     margin: 1rem;
 }
 
+.optionFourOption:hover {
+    background-color: rgba(255, 218, 185, 0.700);
+}
+
 .optionThreeOption {
     border: solid 1px black;
-    background-color: peachpuff;
+    background-color: paleturquoise;
     margin: 1rem;
+}
+
+.optionThreeOption:hover {
+    background-color: rgba(175, 238, 238, 0.700);
 }
 
 .optionTwoOption {
     border: solid 1px black;
-    background-color: peachpuff;
+    background-color: palevioletred;
     margin: 1rem;
+}
+
+.optionTwoOption:hover {
+    background-color: rgba(216, 112, 147, 0.800);
 }
 
 .optionOneOption {
     border: solid 1px black;
-    background-color: peachpuff;
+    background-color: palegreen;
     margin: 1rem;
+}
+
+.optionOneOption:hover {
+    background-color: rgba(152, 251, 152, 0.758);
 }

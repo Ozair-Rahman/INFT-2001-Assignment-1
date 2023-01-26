@@ -2,7 +2,7 @@ const ProductComponent = () => {
     return ( 
         <div className="ProductComponentContent">
             <header className="productComponentHeader">Product Component</header>
-            <h1 className="productComponentOptions">Options</h1>
+            <h1 className="productComponentOptions">Product Page</h1>
             <div className="optionOneOption">
                 <h1>
                     Option 1: Half Dozen Donuts - 
