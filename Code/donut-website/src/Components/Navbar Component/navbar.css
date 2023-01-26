@@ -1,0 +1,48 @@
+.navbarLinks {
+    display: flex;
+    justify-content: center;
+}
+
+.HomeLink {
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    margin: 0.5em;
+}
+
+.HomeLink:hover {
+    color: rgba(0, 0, 0, 0.700);
+}
+
+.AboutLink {
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    margin: 0.5em;
+}
+
+.AboutLink:hover {
+    color: rgba(0, 0, 0, 0.700);
+}
+
+.ProductLink {
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    margin: 0.5em;
+}
+
+.ProductLink:hover {
+    color: rgba(0, 0, 0, 0.700);
+}
+
+.ContactLink {
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    margin: 0.5em;
+}
+
+.ContactLink:hover {
+    color: rgba(0, 0, 0, 0.700);
+}
