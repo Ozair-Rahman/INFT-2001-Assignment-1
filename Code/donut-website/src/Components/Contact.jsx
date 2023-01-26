@@ -1,7 +1,9 @@
+import NavBar from "./Navbar Component/NavBar";
+
 const ContactComponent = () => {
   return (
     <div id="contact" className="ContactComponentContent">
-      <header>Contact Component</header>
+      <NavBar />
       <h1>Contact Us</h1>
       <h2>Name</h2>
       <input className="name" type="text" />
