@@ -1,6 +1,5 @@
-import './Product.css';
-import { Link, Route, Routes } from 'react-router-dom';
-import OptionOneComponent from './OptionOneComponent';
+import './Styles/Product.css';
+import { Link } from 'react-router-dom';
 import NavBar from '../Navbar Component/NavBar';
 
 const ProductComponent = () => {
