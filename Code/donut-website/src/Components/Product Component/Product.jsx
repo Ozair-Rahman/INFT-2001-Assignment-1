@@ -88,7 +88,7 @@ const ProductComponent = () => {
                             </h2>
                             <h3 className="optionFourPrice">$44.00</h3>
                         </Link>
-                    </div>
+                </div>
         </div>
      );
 }
