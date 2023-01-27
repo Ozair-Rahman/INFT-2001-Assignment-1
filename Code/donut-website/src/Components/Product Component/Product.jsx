@@ -8,7 +8,6 @@ const ProductComponent = () => {
     return ( 
         <div className="ProductComponentContent">
             <NavBar />
-            <header className="productComponentHeader">Product Component</header>
                 <div className="optionOneContainer">
                     <Link to="/productOne" className='linkOne'>
                         <div className="optionOneOption">
@@ -27,8 +26,8 @@ const ProductComponent = () => {
                         <h3 className="optionTwoPrice">{optionOneThreePrice}</h3>
                     </Link>
                 </div>
-                <Link to="/productTwo" className='productTwoLink'>
                     <div className="optionTwoContainer">
+                    <Link to="/productTwo" className='productTwoLink'>
                         <div className="optionTwoOption">
                             <h1>
                                 Option 2: Half Dozen Donuts
@@ -45,10 +44,10 @@ const ProductComponent = () => {
                             Crave Option 2 - Half Dozen
                         </h2>
                         <h3 className="optionTwoPrice">{optionOneThreePrice}</h3>
+                    </Link>
                     </div>
-                </Link>
-                <Link to="/productThree" className='productThree'>
                     <div className="optionThreeContainer">
+                    <Link to="/productThree" className='productThree'>
                         <div className="optionThreeOption">
                             <h1>
                                 Option 3: Vegan Half Dozen Donuts
@@ -62,34 +61,34 @@ const ProductComponent = () => {
                             Crave Option 3 - Half Dozen
                         </h2>
                         <h3 className="optionThreePrice">{optionOneThreePrice}</h3>
+                    </Link>
                     </div>
-                </Link>
-                <Link to="/productFour" className='productFour'>
                     <div className="optionFourContainer">
-                        <div className="optionFourOption">
-                            <h1>
-                                Option 4: One Dozen Donuts
-                                Flavors: 
-                                Birthday Cake
-                                Lemon Meringue
-                                Cosmic Brownie
-                                French Toast
-                                Maple Bacon
-                                Churro Cruller
-                                Carrot Cake Fritter 
-                                Honey Vanilla Cruller
-                                Chocolate PB + J
-                                Oatmeal Cream Pie
-                                Biscoff Cookie Butter
-                                Guava Passionfruit Cheesecake
-                            </h1>
-                        </div>
-                        <h2 className="optionFourPriceTitle">
-                            Crave Option 4 - One Dozen
-                        </h2>
-                        <h3 className="optionFourPrice">$44.00</h3>
+                        <Link to="/productFour" className='productFour'>
+                            <div className="optionFourOption">
+                                <h1>
+                                    Option 4: One Dozen Donuts
+                                    Flavors: 
+                                    Birthday Cake
+                                    Lemon Meringue
+                                    Cosmic Brownie
+                                    French Toast
+                                    Maple Bacon
+                                    Churro Cruller
+                                    Carrot Cake Fritter 
+                                    Honey Vanilla Cruller
+                                    Chocolate PB + J
+                                    Oatmeal Cream Pie
+                                    Biscoff Cookie Butter
+                                    Guava Passionfruit Cheesecake
+                                </h1>
+                            </div>
+                            <h2 className="optionFourPriceTitle">
+                                Crave Option 4 - One Dozen
+                            </h2>
+                            <h3 className="optionFourPrice">$44.00</h3>
+                        </Link>
                     </div>
-                </Link>
         </div>
      );
 }
