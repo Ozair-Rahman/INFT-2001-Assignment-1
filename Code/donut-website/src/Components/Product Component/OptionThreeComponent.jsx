@@ -5,12 +5,13 @@ const OptionThreeComponent = () => {
     return ( 
     <div className="optionThreeContent">
         <NavBar />
-        <img 
-        className="productThreeImage"
-        src="https://cdn.shopify.com/s/files/1/0273/3142/8435/products/image_74a9d168-47e6-41ff-9beb-e3faf7594c56_1512x.jpg?v=1673362438" 
-        alt="Product Three Image" 
-        />
-        <div className="productThreeInfo">
+        <div className="optionThreeContainer">
+            <img 
+            className="productThreeImage"
+            src="https://cdn.shopify.com/s/files/1/0273/3142/8435/products/image_74a9d168-47e6-41ff-9beb-e3faf7594c56_1512x.jpg?v=1673362438" 
+            alt="Product Three" 
+            />
+            <div className="productThreeInfo">
                 <header>Crave Option 3 - Half Dozen</header>
                 <h1>$24.00</h1>
                 <h2>Each Box Includes: </h2>
@@ -33,6 +34,7 @@ const OptionThreeComponent = () => {
                     guarantee no cross contamination! 
                 </p>
             </div>
+        </div>
     </div> );
 }
  
