@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.optionFourContainer {
+    display: flex;
+    width: 500px; 
+    margin: 0 auto;
+}
+
+.productFourImage {
+    width: 600px;
+    height: 900px;
+}
+
+.productFourInfo {
+    padding: 1rem;
+    margin: 1rem;
+}

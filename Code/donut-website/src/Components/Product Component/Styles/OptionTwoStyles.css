@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.optionTwoContainer {
+    display: flex;
+    width: 500px; 
+    margin: 0 auto;
+}
+
+.producTwoImage {
+    width: 600px;
+    height: 900px;
+}
+
+.productTwoInfo {
+    padding: 1rem;
+    margin: 1rem;
+}
+
