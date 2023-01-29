@@ -1,3 +1,4 @@
+import Footer from "./Footer Component/Footer";
 import NavBar from "./Navbar Component/NavBar";
 
 const ContactComponent = () => {
@@ -5,7 +6,7 @@ const ContactComponent = () => {
   document.title = 'Contact Us - Crave Doughnuts';
 
   return (
-    <div id="contact" className="ContactComponentContent">
+    <div className="ContactComponentContent">
       <NavBar />
       <h1>Contact Us</h1>
       <h2>Name</h2>
@@ -15,6 +16,7 @@ const ContactComponent = () => {
       <h2>Message</h2>
       <textarea className="message" rows="4" cols="50"></textarea>
       <button>Send</button>
+      <Footer />
     </div>
   );
 };

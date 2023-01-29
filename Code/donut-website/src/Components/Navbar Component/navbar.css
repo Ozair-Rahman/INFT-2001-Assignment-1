@@ -6,6 +6,7 @@ nav {
 .navbarLinks {
     display: flex;
     justify-content: center;
+    text-align: center;
 }
 
 .HomeLink {
@@ -17,8 +18,9 @@ nav {
 
 .HomeLink:hover {
     color: rgba(0, 0, 0, 0.700);
-    background-color: aqua;
-    transition: 1000ms linear;
+    text-decoration: underline solid 2px;
+    background-color: papayawhip;
+    transition: 500ms linear;
 }
 
 .AboutLink {
@@ -30,7 +32,8 @@ nav {
 
 .AboutLink:hover {
     color: rgba(0, 0, 0, 0.700);
-    background-color: aqua;
+    text-decoration: underline solid 2px;
+    background-color: papayawhip;
     transition: 500ms linear;
 }
 
@@ -43,8 +46,9 @@ nav {
 
 .ProductLink:hover {
     color: rgba(0, 0, 0, 0.700);
-    background-color: aqua;
-    transition: 1000ms linear;
+    text-decoration: underline solid 2px;
+    background-color: papayawhip;
+    transition: 500ms linear;
 }
 
 .ContactLink {
@@ -56,6 +60,7 @@ nav {
 
 .ContactLink:hover {
     color: rgba(0, 0, 0, 0.700);
-    background-color: aqua;
-    transition: 1000ms linear;
+    text-decoration: underline solid 2px;
+    background-color: papayawhip;
+    transition: 500ms linear;
 }

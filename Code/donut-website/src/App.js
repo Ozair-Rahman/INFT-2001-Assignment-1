@@ -1,7 +1,7 @@
 import ProductComponent from './Components/Product Component/Product';
 import HomeComponent from './Components/Homepage Component/Home';
 import ContactComponent from './Components/Contact';
-import AboutComponent from './Components/About';
+import AboutComponent from './Components/About Component/About';
 import { Route, Routes } from 'react-router-dom';
 import OptionOneComponent from './Components/Product Component/OptionOneComponent';
 import OptionTwoComponent from './Components/Product Component/OptionTwoComponent';

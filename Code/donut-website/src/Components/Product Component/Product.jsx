@@ -1,6 +1,7 @@
 import './Styles/Product.css';
 import { Link } from 'react-router-dom';
 import NavBar from '../Navbar Component/NavBar';
+import Footer from '../Footer Component/Footer';
 
 const ProductComponent = () => {
 
@@ -93,6 +94,7 @@ const ProductComponent = () => {
                             <h3 className="optionFourPrice">{optionTwoPrice}</h3>
                         </Link>
                 </div> {/* optionOneContainer */}
+                <Footer />
         </div> // ProductComponentContent
      );
 }
