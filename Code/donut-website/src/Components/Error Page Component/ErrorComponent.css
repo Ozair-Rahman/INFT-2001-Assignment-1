@@ -4,3 +4,40 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/*erroMsg Styling =================================================================================================================================================================*/
+.erroMsg {
+    display: grid;
+    place-content: center;
+    text-align: center;
+    margin: 19rem;
+}
+
+.errorHeading {
+    font-size: 2rem;
+    margin-bottom: 0.5em;
+}
+
+.errorSubHeading {
+    font-size: 1rem;
+    padding-top: 1em;
+}
+
+.homeLink {
+    text-decoration: none;
+    place-content: center;
+    background-color: rgb(42, 42, 42);
+    width: 50%;
+    margin-top: 2em;
+    margin-left: 5.5em;
+    padding: 1em;
+}
+
+.homeLinkText {
+    font-size: 1rem;
+    color: white;
+}
+
+.homeLink:hover {
+    background-color: gray;
+}
