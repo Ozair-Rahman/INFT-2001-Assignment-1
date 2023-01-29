@@ -31,7 +31,7 @@ nav {
 .AboutLink:hover {
     color: rgba(0, 0, 0, 0.700);
     background-color: aqua;
-    transition: 1000ms linear;
+    transition: 500ms linear;
 }
 
 .ProductLink {

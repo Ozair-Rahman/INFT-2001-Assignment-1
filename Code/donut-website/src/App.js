@@ -8,6 +8,7 @@ import OptionTwoComponent from './Components/Product Component/OptionTwoComponen
 import OptionThreeComponent from './Components/Product Component/OptionThreeComponent';
 import OptionFourComponent from './Components/Product Component/OptionFourComponent';
 import ErrorComponent from './Components/Error Page Component/ErrorComponent';
+import FaqComponent from './Components/FAQ Component/faq';
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
       <Route path='productThree' element={<OptionThreeComponent />} />
       <Route path='productFour' element={<OptionFourComponent />} />
       <Route path='*' element={<ErrorComponent />}></Route> {/* Error Page */}
+      <Route path='faq' element={<FaqComponent />}></Route>
     </Routes>
   );
 }
