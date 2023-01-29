@@ -1,0 +1,11 @@
+/*General Styling*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Social Media Logo Styling*/
+.socialLogo {
+    padding-top: 1.5em;
+}
