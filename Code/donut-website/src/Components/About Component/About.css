@@ -1,0 +1,35 @@
+/*General Styling ========================================================================================*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}    
+
+/*Our Story Styling ========================================================================================*/
+.ourStory {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: 8rem;
+    margin: 2rem;
+}
+
+.ourStoryHeader {
+    font-size: 3rem;
+    padding-bottom: 2em;
+}
+
+.founderImage {
+    width: auto;
+    height: 450px;
+}
+
+.founderHeading {
+    font-size: 3rem;
+    padding: 1em;
+}   
+
+.founderSubHeading {
+    font-size: 1.5rem;
+    padding-bottom: 2em;
+}
