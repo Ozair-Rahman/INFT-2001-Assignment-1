@@ -1,13 +1,21 @@
+/*General Styling ==========================================================================================*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/*Container Styling ==========================================================================================*/
 .optionTwoContainer {
     display: flex;
     width: 500px; 
     margin: 0 auto;
+}
+
+/*OptionTwoInfo Styling ==========================================================================================*/
+.productTwoInfo {
+    padding: 1rem;
+    margin: 1rem;
 }
 
 .producTwoImage {
@@ -15,8 +23,24 @@
     height: 900px;
 }
 
-.productTwoInfo {
-    padding: 1rem;
-    margin: 1rem;
+.optionTwoTitle {
+    font-size: 2rem;
+    padding-bottom: 0.5em;
 }
 
+.optionTwoPrice {
+    font-size: 2rem;
+    padding-bottom: 0.5em;
+}
+
+.optionTwoContentListTitle {
+    font-size: 1.5rem;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.optionTwoWarning {
+    font-size: 1rem;
+    padding: 1em;
+    font-weight: 600;
+}

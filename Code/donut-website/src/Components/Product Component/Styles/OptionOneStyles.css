@@ -1,31 +1,51 @@
-/*General Styling*/
+/*General Styling ==========================================================================================*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-/*Option One Ifo Styling*/
+/*Option One Container Styling ==========================================================================================*/
 .optionOneContainer {
     display: flex;
     width: 500px; 
     margin: 0 auto;
 }
 
-/*Product Image Styling*/
-.productImage {
-    width: 600px;
-    height: 900px;
-}
-
-/*Donut Info Styling*/
+/*Option One Info Styling ==========================================================================================*/
 .productOneInfo {
     place-content: center;
     padding: 1rem;
     margin: 1rem;
 }
 
-/*Donut order contents styling*/
+.productImage {
+    width: 600px;
+    height: 900px;
+}
+
+.optionOneTitle {
+    font-size: 2rem;
+    padding-bottom: 0.5em;
+}
+
+.optionOnePrice {
+    font-size: 2rem;
+    padding-bottom: 0.5em;
+}
+
+.optionOneContentListTitle {
+    font-size: 1.5rem;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+}
+
 .contentList {
     list-style-type: disc;
+}
+
+.optionOneWarning {
+    font-size: 1rem;
+    padding: 1em;
+    font-weight: 600;
 }

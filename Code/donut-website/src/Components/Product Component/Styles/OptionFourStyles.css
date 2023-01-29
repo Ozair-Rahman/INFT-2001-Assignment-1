@@ -1,15 +1,18 @@
+/* General Styles ===========================================================================================*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/*Container Styling ===========================================================================================*/
 .optionFourContainer {
     display: flex;
     width: 500px; 
     margin: 0 auto;
 }
 
+/* Product Info Styling ===========================================================================================*/
 .productFourImage {
     width: 600px;
     height: 900px;
@@ -18,4 +21,37 @@
 .productFourInfo {
     padding: 1rem;
     margin: 1rem;
+}
+
+.optionFourTitle {
+    font-size: 2rem;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.optionFourPrice {
+    font-size: 2rem;
+    padding-bottom: 0.5em;
+}
+
+.optionFourContentListTitle {
+    font-size: 1.5rem;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.optionFourWarning {
+    font-size: 1rem;
+    padding: 1em;
+    font-weight: 600;
+}
+
+.optionThreeAllergyDisclaimer {
+    font-size: 1rem;
+    padding-top: 1em;
+    margin-top: 1em;
+}
+
+.contentList {
+    padding: 1rem;
 }

@@ -1,6 +1,9 @@
 import NavBar from "./Navbar Component/NavBar";
 
 const HomeComponent = () => {
+
+  document.title = 'Crave Doughnuts';
+
   return (
     <div id="home" className="HomeComponentContent">
       <NavBar />

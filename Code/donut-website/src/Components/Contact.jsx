@@ -1,6 +1,9 @@
 import NavBar from "./Navbar Component/NavBar";
 
 const ContactComponent = () => {
+
+  document.title = 'Contact Us - Crave Doughnuts';
+
   return (
     <div id="contact" className="ContactComponentContent">
       <NavBar />

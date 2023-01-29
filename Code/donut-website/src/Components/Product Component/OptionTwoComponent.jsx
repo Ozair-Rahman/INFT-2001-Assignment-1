@@ -2,6 +2,9 @@ import './Styles/OptionTwoStyles.css';
 import NavBar from "../Navbar Component/NavBar";
 
 const OptionTwo = () => {
+
+    document.title = 'Crave Option 2 - Half Dozen';
+
     return ( 
         <div className="optionTwoContent">
             <NavBar />
@@ -12,9 +15,9 @@ const OptionTwo = () => {
                 alt="Product Two" 
                 />
                 <div className="productTwoInfo">
-                    <header>Crave Option 2 - Half Dozen</header>
-                    <h1>$24.99</h1>
-                    <h2>Each Box Includes: </h2>
+                    <header className='optionTwoTitle'>Crave Option 2 - Half Dozen</header>
+                    <h1 className='optionTwoPrice'>$24.99</h1>
+                    <h2 className='optionTwoContentListTitle'>Each Box Includes: </h2>
                     <ul className="contentList">
                         <li>Birthday Cake</li>
                         <li>Guava Passionfruit Cheesecake</li>
@@ -23,7 +26,7 @@ const OptionTwo = () => {
                         <li>Carrot Cake Fritter (contains pecans)</li>
                         <li>Churro Cruller</li>
                     </ul>
-                    <p>* This Box contains Nuts (pecans)</p>
+                    <p className='optionTwoWarning'>* This Box contains Nuts (pecans)</p>
                     <p>
                         We cater to allergies! If you have an allergy and would like this box,
                         please state so in checkout or email us with your order # in the 
@@ -31,9 +34,9 @@ const OptionTwo = () => {
                         with another alternative of our choice. Unfortunately, we cannot 
                         guarantee no cross contamination! 
                     </p>
-                </div>
-            </div>
-        </div>
+                </div> {/* productTwoInfo */}
+            </div> {/* optionTwoContainer */}
+        </div> // optionTwoContent
      );
 }
  

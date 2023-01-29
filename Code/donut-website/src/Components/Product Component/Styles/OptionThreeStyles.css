@@ -1,15 +1,18 @@
+/*General Styling ==========================================================================================*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/*Container Styling ==========================================================================================*/
 .optionThreeContainer {
     display: flex;
     width: 500px; 
     margin: 0 auto;
 }
 
+/*Product Info Styling ==========================================================================================*/
 .productThreeInfo {
     padding: 1rem;
     margin: 1rem;
@@ -18,4 +21,26 @@
 .productThreeImage {
     width: 600px;
     height: 900px;
+}
+
+.optionThreeTitle {
+    font-size: 2rem;
+    padding-bottom: 0.5em;
+}
+
+.optionThreePrice {
+    font-size: 2rem;
+    padding-bottom: 0.5em;
+}
+
+.optionThreeContentListTite {
+    font-size: 1.5rem;
+    padding-bottom: 0.5em;
+    margin-bottom: 0.5em;
+}
+
+.optionThreeWarning {
+    font-size: 1rem;
+    padding: 1em;
+    font-weight: 600;
 }

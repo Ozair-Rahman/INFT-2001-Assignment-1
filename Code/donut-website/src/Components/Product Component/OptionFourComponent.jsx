@@ -1,7 +1,10 @@
 import './Styles/OptionFourStyles.css'
 import NavBar from "../Navbar Component/NavBar";
 
-const OptionFourComponent = () => {
+const OptionFourComponent = (props) => {
+
+    document.title = 'Crave Option 4 - One Dozen Assorted';
+
     return ( 
         <div className="optionFourContent">
             <NavBar />
@@ -12,9 +15,9 @@ const OptionFourComponent = () => {
                 alt="Product Four" 
                 />
                 <div className="productFourInfo">
-                    <header>Crave Option 4 - One Dozen Assorted</header>
-                    <h1>$44.00</h1>
-                    <h2>Each Box Includes:</h2>
+                    <header className='optionFourTitle'>Crave Option 4 - One Dozen Assorted</header>
+                    <h1 className='optionFourPrice'>$44.00</h1>
+                    <h2 className='optionFourContentListTitle'>Each Box Includes:</h2>
                     <ul className="contentList">
                         <li>Birthday Cake</li>
                         <li>Lemon Meringue</li>
@@ -29,7 +32,7 @@ const OptionFourComponent = () => {
                         <li>Oatmeal Cream Pie (v)</li>
                         <li>Biscoff Cookie Butter (v)</li>
                     </ul>
-                    <p>* This Box contains Nuts (pecans)</p>
+                    <p className='optionFourWarning'>* This Box contains Nuts (pecans)</p>
                     <p>
                         We cater to allergies! If you have an allergy and would like this box,
                         please state so in checkout or email us with your order # in the 
@@ -37,9 +40,9 @@ const OptionFourComponent = () => {
                         with another alternative of our choice. Unfortunately, we cannot 
                         guarantee no cross contamination! 
                     </p>
-                </div>
-            </div>
-        </div>
+                </div> {/* productFourInfo */}
+            </div> {/* optionFourContainer */}
+        </div> // optionFourContent
      );
 }
  

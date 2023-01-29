@@ -3,7 +3,11 @@ import { Link } from 'react-router-dom';
 import NavBar from '../Navbar Component/NavBar';
 
 const ProductComponent = () => {
+
+    document.title = 'Doughnuts - Crave Doughnuts';
+
     const optionOneThreePrice = '$24.00';
+    const optionTwoPrice = '$44.00';
 
     return ( 
         <div className="ProductComponentContent">
@@ -86,10 +90,10 @@ const ProductComponent = () => {
                             <h2 className="optionFourPriceTitle">
                                 Crave Option 4 - One Dozen
                             </h2>
-                            <h3 className="optionFourPrice">$44.00</h3>
+                            <h3 className="optionFourPrice">{optionTwoPrice}</h3>
                         </Link>
-                </div>
-        </div>
+                </div> {/* optionOneContainer */}
+        </div> // ProductComponentContent
      );
 }
  
