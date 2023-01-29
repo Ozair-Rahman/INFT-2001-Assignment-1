@@ -1,6 +1,6 @@
 import ProductComponent from './Components/Product Component/Product';
 import HomeComponent from './Components/Homepage Component/Home';
-import ContactComponent from './Components/Contact';
+import ContactComponent from './Components/Contact Component/Contact'
 import AboutComponent from './Components/About Component/About';
 import { Route, Routes } from 'react-router-dom';
 import OptionOneComponent from './Components/Product Component/OptionOneComponent';

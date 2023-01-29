@@ -11,3 +11,19 @@
     place-content: center;
     padding: 8rem;
 }
+
+.qNAHeader {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 1em;
+}
+
+.question {
+    padding-bottom: 2rem;
+    color: rgb(85, 199, 161)
+}
+
+.answer {
+    font-size: 1.5rem;
+    padding-bottom: 2em;
+}
