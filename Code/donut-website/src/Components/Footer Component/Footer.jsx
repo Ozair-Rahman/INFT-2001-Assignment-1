@@ -16,6 +16,8 @@ const Footer = () => {
             </Link>
             <h1>Have Any Questions? Contact Us by Email</h1>
             <p className="eMail">info@cravedoughnuts.com</p>
+            <a href='https://www.instagram.com/crave.doughnuts/'>Instagram</a>
+            <a href='https://www.facebook.com/cravedoughnuts'>Facebook</a>
       </footer>
         </>
      );

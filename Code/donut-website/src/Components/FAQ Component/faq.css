@@ -1,0 +1,13 @@
+/*General Styling ================================================================================================*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Location Styling ================================================================================================*/
+.locationDiv {
+    display: grid;
+    place-content: center;
+    padding: 8rem;
+}
