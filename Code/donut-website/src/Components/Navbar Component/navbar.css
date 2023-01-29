@@ -17,6 +17,8 @@ nav {
 
 .HomeLink:hover {
     color: rgba(0, 0, 0, 0.700);
+    background-color: aqua;
+    transition: 1000ms linear;
 }
 
 .AboutLink {
@@ -28,6 +30,8 @@ nav {
 
 .AboutLink:hover {
     color: rgba(0, 0, 0, 0.700);
+    background-color: aqua;
+    transition: 1000ms linear;
 }
 
 .ProductLink {
@@ -39,6 +43,8 @@ nav {
 
 .ProductLink:hover {
     color: rgba(0, 0, 0, 0.700);
+    background-color: aqua;
+    transition: 1000ms linear;
 }
 
 .ContactLink {
@@ -50,4 +56,6 @@ nav {
 
 .ContactLink:hover {
     color: rgba(0, 0, 0, 0.700);
+    background-color: aqua;
+    transition: 1000ms linear;
 }
