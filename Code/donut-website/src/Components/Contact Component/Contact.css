@@ -1,0 +1,42 @@
+/*General Styling =====================================================================================================================================================================*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* emailFormHeader =====================================================================================================================================================================*/
+.emailFormHeader {
+    display: grid;
+    place-content: center;
+    font-size: 3rem;
+    padding-bottom: 3em;
+}
+
+/* emailSubmitForm Styling =====================================================================================================================================================================*/
+.emailFormDiv {
+    display: grid;
+    place-content: center;
+    padding-bottom: 10rem;
+}
+
+.nameLabel {
+    font-size: 1rem;
+    padding-right: 1em;
+}
+
+.emailLabel {
+    font-size: 1rem;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.msgLabel {
+    font-size: 1rem;
+    padding-right: 1em;
+    padding-left: 1em;
+}
+
+.sendBtn {
+    margin-left: 1rem;
+}
