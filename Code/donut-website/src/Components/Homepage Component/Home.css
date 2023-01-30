@@ -38,16 +38,18 @@
 .testimonialHeader {
     font-size: 3rem;
     display: grid;
-    background-color: antiquewhite;
     place-content: center;
     padding: 3rem;
+}
+
+.quoteMark {
+    font-size: 5rem;
 }
 
 .testimonials {
     display: flex;
     justify-content: center;
     text-align: center;
-    background-color: antiquewhite;
 }
 
 .testimonialOne {

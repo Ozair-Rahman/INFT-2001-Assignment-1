@@ -35,16 +35,19 @@ const HomeComponent = () => {
       </div> {/* testimonialHeader */}
       <div className="testimonials">
         <div className="testimonialOne">
+          <p className="quoteMark">&#8220;</p>
           <p className="quote">Just tried my first doughnut from Crave Doughnuts and WOW! These are hands down the best I have ever had. They are so fresh! The flavours they offer are unique and unbelievably tasty!</p>
-          <p className="authorQuote"> - S. Carter</p>
+          <p className="authorQuote"> &#65293; S. Carter</p>
         </div> {/* testimonialOne */}
         <div className="testimonialTwo">
+          <p className="quoteMark">&#8220;</p>
           <p className="quote">Saw a gigantic line up and was hesitant to wait... I'm glad I did. Upon the first bite of my coconut brownie donut the serotonin receptors in my brain lit up like a Christmas tree. I mean I've never had a donut so divine my mind was blown to smithereens. I can't wait till I return and try all the flavors and hopefully not be a diabetic by the end of my mission.</p>
-          <p className="authorQuote"> - M. Tower</p>
+          <p className="authorQuote"> &#65293; M. Tower</p>
         </div> {/* testimonialTwo */}
         <div className="testimonialThree">
+          <p className="quoteMark">&#8220;</p>
           <p className="quote">These doughnuts are top notch and have some of the nicest employees you will ever meet. You pay for what you get which is the BEST DOUGHNUTS. Support local small businesses! You are killing it Crave! </p>
-          <p className="authorQuote"> - J. Giorgi</p>
+          <p className="authorQuote"> &#65293; J. Giorgi</p>
         </div> {/* testimonialThree */}
       </div> {/* testimonials */}
       <div className="operationHours">
