@@ -1,7 +1,8 @@
-import './Styles/OptionFourStyles.css'
+import './Styles/OptionFourStyles.css';
 import NavBar from "../Navbar Component/NavBar";
+import Footer from '../Footer Component/Footer';
 
-const OptionFourComponent = (props) => {
+const OptionFourComponent = () => {
 
     document.title = 'Crave Option 4 - One Dozen Assorted';
 
@@ -42,6 +43,7 @@ const OptionFourComponent = (props) => {
                     </p>
                 </div> {/* productFourInfo */}
             </div> {/* optionFourContainer */}
+            <Footer />
         </div> // optionFourContent
      );
 }

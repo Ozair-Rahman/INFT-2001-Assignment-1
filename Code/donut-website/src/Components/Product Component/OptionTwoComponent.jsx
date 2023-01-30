@@ -1,5 +1,6 @@
 import './Styles/OptionTwoStyles.css';
 import NavBar from "../Navbar Component/NavBar";
+import Footer from '../Footer Component/Footer';
 
 const OptionTwo = () => {
 
@@ -36,6 +37,7 @@ const OptionTwo = () => {
                     </p>
                 </div> {/* productTwoInfo */}
             </div> {/* optionTwoContainer */}
+            <Footer />
         </div> // optionTwoContent
      );
 }

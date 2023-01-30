@@ -1,5 +1,6 @@
 import './Styles/OptionOneStyles.css';
 import NavBar from "../Navbar Component/NavBar";
+import Footer from '../Footer Component/Footer';
 
 const OptionOneComponent = () => {
 
@@ -12,7 +13,7 @@ const OptionOneComponent = () => {
                 <img 
                 className="productImage"
                 src="https://cdn.shopify.com/s/files/1/0273/3142/8435/products/image_790cdd7f-bbc4-48bf-aa14-0db95f08b62c_1512x.jpg?v=1673362330" 
-                alt="Product Four"  
+                alt="Product One"  
                 />
                 <div className="productOneInfo">
                     <header className='optionOneTitle'>Crave Option 1 - Half Dozen</header>
@@ -37,6 +38,7 @@ const OptionOneComponent = () => {
                     </p>
                 </div>{/* productOneInfo */}
             </div> {/* optionOneContainer */}
+            <Footer />
         </div> // optionOneComponentContainer
      );
 }

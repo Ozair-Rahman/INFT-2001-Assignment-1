@@ -1,5 +1,6 @@
-import './Styles/OptionThreeStyles.css'
+import './Styles/OptionThreeStyles.css';
 import NavBar from "../Navbar Component/NavBar";
+import Footer from '../Footer Component/Footer';
 
 const OptionThreeComponent = () => {
 
@@ -38,6 +39,7 @@ const OptionThreeComponent = () => {
                 </p>
             </div> {/* productThreeInfo */}
         </div> {/* optionThreeContainer */}
+        <Footer />
     </div> // optionThreeContent
     );
 }
