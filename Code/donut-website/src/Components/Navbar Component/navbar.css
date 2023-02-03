@@ -64,3 +64,8 @@ nav {
     background-color: papayawhip;
     transition: 500ms linear;
 }
+
+.logo {
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
