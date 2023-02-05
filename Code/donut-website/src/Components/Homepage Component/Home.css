@@ -40,7 +40,7 @@
     padding-top: 2rem;
 }
 
-/*Testimonail Div Styling ============================================================================================================*/
+/*Testinomial Styling ============================================================================================================*/
 
 /* testimonialHeader Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .testimonialHeader {
@@ -49,32 +49,38 @@
     padding: 1em;
 }
 
-
+/* quotationMark HTML Unicode Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .quoteMark {
     font-size: 5rem;
 }
 
+/*testimonials Div Styling  ============================================================================================================*/
 .testimonials {
     display: flex;
-    justify-content: center;
     text-align: center;
 }
 
+/*testimonialOne Div Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .testimonialOne {
     padding: 2rem;
 }
 
+/*testimonialTwo Div Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .testimonialTwo {
     padding: 2rem;
 }
 
+/*testimonialThree Div Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .testimonialThree {
     padding: 2rem;
 }
 
+/*quote Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .quote {
     font-size: 1.5rem;
 }
+
+/*authorQuote Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .authorQuote {
     padding-top: 1rem;
     font-size: 2rem;
@@ -84,92 +90,44 @@
 /*Operation Hours Styling ============================================================================================================*/
 .operationHours {
     padding: 3rem;
+
+    /* Place In Center of DOM */
     display: grid;
     place-content: center;
 }
 
+/*locationHeading Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .locationHeading {
     font-size: 2rem;
     padding-bottom: 0.5em;
 }
 
+/*locationSubHeading Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .locationSubHeading {
     font-size: 1.5rem;
     padding-bottom: 1rem;
 }
 
+/*Hours of Operation Heading Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .hoHeading {
     font-size: 2rem;
     padding-bottom: 0.5em;
 }
 
+/*days Heading Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .daysHeading {
     font-size: 1.5rem;
 }
 
+/*hours Heading Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .hoursHeading {
     font-size: 1.5rem;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
+/*walkin SubHeading Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .walkinSubHeading {
     font-size: 1.5rem;
-    padding-top: 1rem;
-}
-
-/*Footer Styling ============================================================================================================*/
-footer {
-    padding: 3rem;
-    background-color: aquamarine;
-}
-
-.footerQuickLinks {
-    padding-bottom: 1rem;
-}
-
-.aboutLink {
-    font-size: 1rem;
-    text-decoration: none;
-    color: black;
-}
-
-.aboutUsLink {
-    padding-bottom: 1rem;
-}
-
-.aboutLink:hover {
-    text-decoration: underline solid 2px black;
-}
-
-.productLink {
-    font-size: 1rem;
-    text-decoration: none;
-    color: black;
-}
-
-.productLink:hover {
-    text-decoration: underline solid 2px black;
-}
-
-.productsLink {
-    padding-bottom: 1rem;
-}
-
-.faqLink {
-    font-size: 1rem;
-    text-decoration: none;
-    color:black;
-}
-
-.FaqLink:hover {
-    text-decoration: underline solid 2px black;
-}
-
-.FaqLink {
-    padding-bottom: 1rem;
-}
-
-.eMail {
     padding-top: 1rem;
 }

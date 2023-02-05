@@ -43,7 +43,7 @@ const HomeComponent = () => {
       {/* testimonialOne */}
       <div className="testimonials">
         <div className="testimonialOne">
-          <p className="quoteMark">&#8220;</p> 
+          <p className="quoteMark">&#8220;</p> {/* quotationMark HTML Unicode */}
           <p className="quote">Just tried my first doughnut from Crave Doughnuts and WOW! These are hands down the best I have ever had. They are so fresh! The flavours they offer are unique and unbelievably tasty!</p>
           <p className="authorQuote"> &#65293; S. Carter</p>
         </div> {/* testimonialOne */}
@@ -78,7 +78,8 @@ const HomeComponent = () => {
         <h2>WALK INS:</h2>
         <p className="walkinSubHeading">9-5 PM OR UNTIL SOLD OUT!</p>
       </div> {/* operationHours */}
-      <Footer />  {/* importing Footer */}
+
+      <Footer />  {/* Footer */}
     </> 
   );
 };
