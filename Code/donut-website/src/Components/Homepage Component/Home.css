@@ -6,41 +6,49 @@
 }
 
 /*AboutProduct Styling ============================================================================================================*/
+
+/* aboutProduct Div Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .aboutProduct {
     display: flex;
     background-color: aquamarine;
     padding: 3rem;
 }
-
+/* localIngredientsSection Div Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .localIngredientsSection {
     padding: 2rem;
 }
 
+/* veganSection Div Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .veganSection {
     padding: 2rem;
 }
 
-.veganTitle {
-    font-size: 2rem;
-    padding-bottom: 0.75em;
-}
-
-.description {
-    font-size: 1.5rem;
-    padding-top: 1em;
-}
-
+/* flavorSection Div Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .flavorSection {
     padding: 2rem;
 }
 
-/*Testimonail Styling ============================================================================================================*/
+/* aboutProductTitle Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.aboutProductTitle {
+    font-size: 2rem;
+    padding-bottom: 1em;
+}
+
+/* aboutProductDescription Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.aboutProductDescription {
+    font-size: 1.5rem;
+    padding-top: 2rem;
+}
+
+/*Testimonail Div Styling ============================================================================================================*/
+
+/* testimonialHeader Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .testimonialHeader {
     font-size: 3rem;
-    display: grid;
-    place-content: center;
-    padding: 3rem;
+    text-align: center;
+    padding: 1em;
 }
+
 
 .quoteMark {
     font-size: 5rem;
