@@ -9,9 +9,15 @@ const FaqComponent = () => {
 
     return ( 
         <>
-        <NavBar />
-        <div className="locationDiv">
+        <NavBar /> {/* Navbar */}
+
+        {/* qnaDiv */}
+        <div className="qnaDiv">
+
+            {/* FAQ Header */}
             <header  className="qNAHeader">FAQ</header>
+
+            {/* FAQ Questions & Answers */}
             <h1 className="question">Where are you located?</h1>
             <p className="answer">Crave Doughnuts is located at 102 Lupin Drive, Whitby, Ontario, Canada.</p>
             <h1 className="question">You sell out often. Why don't you make more doughnuts throughout the day?</h1>
@@ -30,8 +36,8 @@ const FaqComponent = () => {
             <p className="answer">No we do not make mini doughnuts at this time.</p>
             <h1 className="question">Help! I've ordered and don't have my confirmation email!</h1>
             <p className="answer">Don't worry! If you haven't received your email, please check your junk mail. If you still do not see it, please send us an email at info@cravedoughnuts.com to retrieve it! </p>
-        </div>
-        <Footer />
+        </div> {/* qnaDiv */}
+        <Footer /> {/* Footer */}
         </>
      );
 }
