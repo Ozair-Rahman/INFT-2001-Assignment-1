@@ -37,10 +37,13 @@
 .heading {
     font-size: 3rem;
     padding: 1em;
+    color: #3a3a3a;
 }   
 
 /*subHeading Styling //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .subHeading {
     font-size: 1.5rem;
     padding-bottom: 2em;
+    font-family: 'Avenir Next', sans-serif;
+    color: #414141;
 }
