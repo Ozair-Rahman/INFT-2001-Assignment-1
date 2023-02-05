@@ -7,7 +7,6 @@ const NavBar = () => {
     <>
     {/* navbar */}
     <nav> 
-
       {/* Link to Homepage When Logo is Clicked */}
       <Link to='/'>
         <img 
@@ -18,30 +17,31 @@ const NavBar = () => {
 
       {/* navbarLink Div */}
       <div className="navbarLinks">
-
         {/* Redirect to Home Component */}
-        <Link to="/" className="Links">
-          <p>Home</p>
-        </Link>
+          {/* Redirect to Home Component */}
+          <Link to="/" className="Links">
+            <p>Home</p>
+          </Link>
 
-        {/* Redirect to About Component */}
-        <Link to="/about" className="Links">
-          <p>About</p>
-        </Link>
+          {/* Redirect to About Component */}
+          <Link to="/about" className="Links">
+            <p>About</p>
+          </Link>
 
-        {/* Redirect to Product Component */}
-        <Link to="/product" className="Links">
-          <p>Product</p>
-        </Link>
+          {/* Redirect to Product Component */}
+          <Link to="/product" className="Links">
+            <p>Product</p>
+          </Link>
 
-        {/* Redirect to Contact Component */}
-        <Link to="/contact" className="Links">
-          <p>Contact</p>
-        </Link>
+          {/* Redirect to Contact Component */}
+          <Link to="/contact" className="Links">
+            <p>Contact</p>
+          </Link>
       </div>  {/* navbarLinks */}
-    </nav>  {/* navbar */}
+      </nav>  {/* navbar */}
     </>
   );
 };
+
 
 export default NavBar;

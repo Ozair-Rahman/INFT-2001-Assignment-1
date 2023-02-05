@@ -30,4 +30,53 @@ nav {
 /*Links on Hover Styling //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .Links:hover {
     text-decoration: underline solid 2px;
+    background-color: papayawhip;
+    transition: 500ms linear;
+}
+
+.AboutLink {
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    margin: 0.5em;
+}
+
+.AboutLink:hover {
+    color: rgba(0, 0, 0, 0.700);
+    text-decoration: underline solid 2px;
+    background-color: papayawhip;
+    transition: 500ms linear;
+}
+
+.ProductLink {
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    margin: 0.5em;
+}
+
+.ProductLink:hover {
+    color: rgba(0, 0, 0, 0.700);
+    text-decoration: underline solid 2px;
+    background-color: papayawhip;
+    transition: 500ms linear;
+}
+
+.ContactLink {
+    font-size: 2rem;
+    text-decoration: none;
+    color: black;
+    margin: 0.5em;
+}
+
+.ContactLink:hover {
+    color: rgba(0, 0, 0, 0.700);
+    text-decoration: underline solid 2px;
+    background-color: papayawhip;
+    transition: 500ms linear;
+}
+
+.logo {
+    padding-top: 1rem;
+    padding-left: 1rem;
 }
