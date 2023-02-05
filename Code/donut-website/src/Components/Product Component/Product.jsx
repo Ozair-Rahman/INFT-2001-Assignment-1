@@ -1,3 +1,4 @@
+// Imports
 import './Styles/Product.css';
 import { Link } from 'react-router-dom';
 import NavBar from '../Navbar Component/NavBar';
@@ -5,7 +6,7 @@ import Footer from '../Footer Component/Footer';
 
 const ProductComponent = () => {
 
-    document.title = 'Doughnuts - Crave Doughnuts';
+    document.title = 'Doughnuts - Crave Doughnuts'; // Change Title When On Product Page
 
     const optionOneThreePrice = '$24.00';
     const optionTwoPrice = '$44.00';
@@ -13,8 +14,8 @@ const ProductComponent = () => {
     return ( 
         <div className="ProductComponentContent">
             <NavBar />
-                <div className="optionOneContainer">
-                    <Link to="/productOne" className='linkOne'>
+                <div className="optionContainer">
+                    <Link to="/productOne" className='productLink'>
                         <div className="optionOneOption">
                             <h1>
                                 Option 1: Half Dozen Donuts - 
@@ -31,8 +32,8 @@ const ProductComponent = () => {
                         <h3 className="optionTwoPrice">{optionOneThreePrice}</h3>
                     </Link>
                 </div>
-                    <div className="optionTwoContainer">
-                    <Link to="/productTwo" className='productTwoLink'>
+                    <div className="optionContainer">
+                    <Link to="/productTwo" className='productLink'>
                         <div className="optionTwoOption">
                             <h1>
                                 Option 2: Half Dozen Donuts
@@ -51,8 +52,8 @@ const ProductComponent = () => {
                         <h3 className="optionTwoPrice">{optionOneThreePrice}</h3>
                     </Link>
                     </div>
-                    <div className="optionThreeContainer">
-                    <Link to="/productThree" className='productThree'>
+                    <div className="optionContainer">
+                    <Link to="/productThree" className='productLink'>
                         <div className="optionThreeOption">
                             <h1>
                                 Option 3: Vegan Half Dozen Donuts
@@ -68,8 +69,8 @@ const ProductComponent = () => {
                         <h3 className="optionThreePrice">{optionOneThreePrice}</h3>
                     </Link>
                     </div>
-                    <div className="optionFourContainer">
-                        <Link to="/productFour" className='productFour'>
+                    <div className="optionContainer">
+                        <Link to="/productFour" className='productLink'>
                             <div className="optionFourOption">
                                 <h1>
                                     Option 4: One Dozen Donuts

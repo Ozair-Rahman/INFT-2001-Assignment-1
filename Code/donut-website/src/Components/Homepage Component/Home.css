@@ -1,3 +1,6 @@
+/*Imports =================================================================================================================================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
 /*General Styling ============================================================================================================*/
 * {
     padding: 0;
@@ -12,6 +15,7 @@
     display: flex;
     background-color: #81cec4;
     padding: 3rem;
+    font-family: 'Arvo',serif;
 }
 /* localIngredientsSection Div Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .localIngredientsSection {
@@ -37,6 +41,7 @@
     font-size: 3rem;
     text-align: center;
     padding: 1em;
+    font-family: 'Arvo',serif;
 }
 
 /* quotationMark HTML Unicode Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -48,6 +53,7 @@
 .testimonials {
     display: flex;
     text-align: center;
+    font-family: 'Arvo',serif;
 }
 
 /*testimonialOne Div Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -70,6 +76,7 @@
 /*Operation Hours Styling ============================================================================================================*/
 .operationHours {
     padding: 3rem;
+    font-family: 'Arvo',serif;
 
     /* Place In Center of DOM */
     display: grid;

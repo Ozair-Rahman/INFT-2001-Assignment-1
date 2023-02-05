@@ -1,3 +1,6 @@
+/*Imports =================================================================================================================================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
 /*General Styling*/
 * {
     padding: 0;
@@ -13,30 +16,16 @@
 /*Product Component Header Styling==========================================================================================================================================================================================================================================*/
 
 /* Option Containers ==========================================================================================================================================================================================================================================*/
-.optionOneContainer {
+.optionContainer {
     display: grid;
     place-content: center;
     padding: 2.5rem;
+    font-family: 'Arvo', serif;
 }
 
-.optionTwoContainer {
-    display: grid;
-    place-content: center;
-    padding: 2.5rem;
+.optionContainer:hover {
+    opacity: 80%;
 }
-
-.optionThreeContainer {
-    display: grid;
-    place-content: center;
-    padding: 2.5rem;
-}
-
-.optionFourContainer {
-    display: grid;
-    place-content: center;
-    padding: 2.5rem;
-}
-
 
 /*Option One Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .optionOneOption {
@@ -45,10 +34,6 @@
     border: solid 1px black;
     background-color: palegreen;
     padding: 4rem;
-}
-
-.optionOneOption:hover {
-    background-color: rgba(152, 251, 152, 0.758);
 }
 
 /*Option Two Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -70,15 +55,6 @@
     padding: 4rem;
 }
 
-.optionThreeOption:hover {
-    background-color: rgba(175, 238, 238, 0.700);
-}
-
-
-.optionTwoOption:hover {
-    background-color: rgba(216, 112, 147, 0.800);
-}
-
 /*Option Four Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .optionFourOption {
     width: 60vw;
@@ -88,27 +64,8 @@
     padding: 4rem;
 }      
 
-.optionFourOption:hover {
-    background-color: rgba(255, 218, 185, 0.700);
-}
-
 /*React Router Link Styling Styling ========================================================================================================================================================================*/
-.linkOne {
-    text-decoration: none;
-    color: black;
-}
-
-.productTwoLink {
-    text-decoration: none;
-    color: black;   
-}
-
-.productThree {
-    text-decoration: none;
-    color: black; 
-}
-
-.productFour {
+.productLink {
     text-decoration: none;
     color: black;
 }
