@@ -1,28 +1,41 @@
-import { Link } from 'react-router-dom'
-import './Footer.css'
+// Imports
+import { Link } from 'react-router-dom' // Import Links from react-router to redirect pages
+import './Footer.css' // Import CSS
  
 const Footer = () => {
 
     return ( 
         <>
-            <footer className="homepageFooter">
-                <h1 className="footerQuickLinks">Quick Links</h1>
-                <Link to='/about' className="aboutLink">
-                <h2 className="aboutUsLink">About Us</h2>
-                </Link>
-                <Link to='/product' className="productLink">
-                <h2 className="productsLink">Products</h2>
-                </Link>
-                <Link to='/faq' className="faqLink">
-                <h2 className="FaqLink">FAQ</h2>
-                </Link>
-                <h1>Have Any Questions? Contact Us by Email</h1>
-                <p className="eMail">info@cravedoughnuts.com</p>
-                <div className="socialLogo">
-                    <a href='https://www.instagram.com/crave.doughnuts/'><img src="https://img.icons8.com/ios-glyphs/30/null/instagram-new.png" alt="Instagram Logo" /></a>
-                    <a href='https://www.facebook.com/cravedoughnuts'><img src="https://img.icons8.com/ios-glyphs/30/null/facebook-new.png" alt="Facebook Logo" /></a>
-                </div>
-            </footer>
+        <footer>
+            <header className="footerQuickLinks">Quick Links</header>
+
+            {/* Redirect to About Component */}
+            <Link to='/about' className="footerLink">
+            <p>About Us</p>
+            </Link>
+
+            {/* Redirect to Product Component */}
+            <Link to='/product' className="footerLink">
+            <p>Products</p>
+            </Link>
+
+            {/* Redirect to FAQ Component */}
+            <Link to='/faq' className="footerLink">
+            <p>FAQ</p>
+            </Link>
+
+            <h1>Have Any Questions? Contact Us by Email</h1>
+            <p>info@cravedoughnuts.com</p>
+
+            {/* Social Media Links */}
+            <div className="socialLogo">
+                {/* Instagram Link */}
+                <a className='socialLink' href='https://www.instagram.com/crave.doughnuts/'><img src="https://img.icons8.com/ios-glyphs/30/null/instagram-new.png" alt="Instagram Link" /></a>
+
+                {/* Facebook Link */}
+                <a className='socialLink' href='https://www.facebook.com/cravedoughnuts'><img src="https://img.icons8.com/ios-glyphs/30/null/facebook-new.png" alt="Facebook Link" /></a>
+            </div>
+        </footer>
         </>
      );
 }

@@ -1,66 +1,45 @@
-/*General Styling*/
+/*General Styling =============================================================================================================================================================================================*/
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
+/*Footer Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 footer {
     padding: 3rem;
     background-color: #81cec4;
 }
 
+/*footerQuickLinks Header Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .footerQuickLinks {
+    font-size: 2rem;
+    font-weight: 700;
     padding-bottom: 1rem;
 }
 
-.aboutLink {
-    font-size: 1rem;
+/*footerLink Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.footerLink {
+    display: block;
+    font-size: 1.5rem;
     text-decoration: none;
     color: black;
-}
-
-.aboutUsLink {
     padding-bottom: 1rem;
 }
 
-.aboutLink:hover {
+/*footerLink on Hover Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.footerLink:hover {
     text-decoration: underline solid 2px black;
 }
 
-.productLink {
-    font-size: 1rem;
-    text-decoration: none;
-    color: black;
-}
+/*Social Media Link Styling =============================================================================================================================================================================================*/
 
-.productLink:hover {
-    text-decoration: underline solid 2px black;
-}
-
-.productsLink {
-    padding-bottom: 1rem;
-}
-
-.faqLink {
-    font-size: 1rem;
-    text-decoration: none;
-    color:black;
-}
-
-.FaqLink:hover {
-    text-decoration: underline solid 2px black;
-}
-
-.FaqLink {
-    padding-bottom: 1rem;
-}
-
-.eMail {
-    padding-top: 1rem;
-}
-
-/*Social Media Logo Styling*/
+/*Social Media Logo Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .socialLogo {
     padding-top: 1.5em;
+}
+
+/*Social Media Logo on Hover Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.socialLink:hover {
+    opacity: 50%;
 }
