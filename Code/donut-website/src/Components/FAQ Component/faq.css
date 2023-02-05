@@ -1,3 +1,6 @@
+/*Imports ================================================================================================================================================================================================================================================================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
 /*General Styling ================================================================================================*/
 * {
     padding: 0;
@@ -10,6 +13,7 @@
     display: grid;
     place-content: center;
     padding: 8rem;
+    font-family: 'Arvo', serif;
 }
 
 .qNAHeader {
@@ -20,10 +24,11 @@
 
 .question {
     padding-bottom: 2rem;
-    color: rgb(85, 199, 161)
+    color: #81cec4;
 }
 
 .answer {
     font-size: 1.5rem;
     padding-bottom: 2em;
+    font-family: 'Avenir Next',sans-serif;
 }
