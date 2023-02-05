@@ -53,7 +53,7 @@
 .testimonials {
     display: flex;
     text-align: center;
-    font-family: 'Arvo',serif;
+    font-family: 'Avenir Next',sans-serif;
 }
 
 /*testimonialOne Div Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -76,7 +76,7 @@
 /*Operation Hours Styling ============================================================================================================*/
 .operationHours {
     padding: 3rem;
-    font-family: 'Arvo',serif;
+    font-family: 'Avenir Next',sans-serif;
 
     /* Place In Center of DOM */
     display: grid;
@@ -87,6 +87,7 @@
 .locationHeading {
     font-size: 2rem;
     padding-bottom: 0.5em;
+    font-family: 'Arvo',serif;
 }
 
 /*locationSubHeading Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

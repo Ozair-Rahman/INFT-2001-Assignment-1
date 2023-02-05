@@ -36,7 +36,7 @@ const NavBar = () => {
 
         {/* Redirect to Contact Component */}
         <Link to="/contact" className="Links">
-          <p>Contact US!</p>
+          <p>Contact</p>
         </Link>
       </div>  {/* navbarLinks */}
     </nav>  {/* navbar */}
