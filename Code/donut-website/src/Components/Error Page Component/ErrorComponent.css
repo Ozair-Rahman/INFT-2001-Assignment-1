@@ -1,4 +1,7 @@
-/*General Styling*/
+/*Imports =================================================================================================================================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+/*General Styling =================================================================================================================================================================*/
 * {
     padding: 0;
     margin: 0;
@@ -6,38 +9,55 @@
 }
 
 /*erroMsg Styling =================================================================================================================================================================*/
+
+/*erroMsg Styling //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .erroMsg {
+
+    /*Center Div*/
     display: grid;
     place-content: center;
     text-align: center;
+
+    /*Add  padding all around to move div to bottom*/
     margin: 19rem;
+
+    font-family: 'Arvo',serif;
 }
 
+/*erroMsg Heading Styling //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .errorHeading {
-    font-size: 2rem;
+    font-size: 3rem;
     margin-bottom: 0.5em;
+    font-weight: 400;
+    color: #3a3a3a;
 }
 
+/*erroMsg SubHeading Styling //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .errorSubHeading {
     font-size: 1rem;
     padding-top: 1em;
+    color: #414141;
+    font-family: 'Avenir Next',sans-serif;
 }
 
+/*homeLink Btn Styling //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .homeLink {
-    text-decoration: none;
-    place-content: center;
-    background-color: rgb(42, 42, 42);
+    /*Btn Properties*/
+    border-radius: 2px;
     width: 50%;
     margin-top: 2em;
     margin-left: 5.5em;
     padding: 1em;
-}
 
-.homeLinkText {
+    /*Text Properties*/
     font-size: 1rem;
+    background-color: #3a3a3a;
     color: white;
+    text-decoration: none;
+    text-transform: uppercase;
 }
 
+/*homeLink Btn on Hover Styling //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .homeLink:hover {
     background-color: gray;
 }
