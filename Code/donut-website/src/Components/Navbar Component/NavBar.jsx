@@ -1,32 +1,45 @@
 // Imports
-import { Link } from "react-router-dom"; // Import Link So We Can Link Routes 
+import { Link } from "react-router-dom"; // Import Link from react-router So We Can Link Routes 
 import './navbar.css'; // Import CSS
 
 const NavBar = () => {
   return (
     <>
-    <nav>
+    {/* navbar */}
+    <nav> 
+
+      {/* Link to Homepage When Logo is Clicked */}
       <Link to='/'>
         <img 
         src="https://cdn.shopify.com/s/files/1/0273/3142/8435/files/CRAVE_wordmark_curve_180x.png?v=1614354953" 
         alt="Home Logo"
         />
       </Link>
+
+      {/* navbarLink Div */}
       <div className="navbarLinks">
-        <Link to="/" className="HomeLink">
-          <label>Home</label>
+
+        {/* Redirect to Home Component */}
+        <Link to="/" className="Links">
+          <p>Home</p>
         </Link>
-        <Link to="/about" className="AboutLink">
-          <label>About</label>
+
+        {/* Redirect to About Component */}
+        <Link to="/about" className="Links">
+          <p>About</p>
         </Link>
-        <Link to="/product" className="ProductLink">
-          <label>Product</label>
+
+        {/* Redirect to Product Component */}
+        <Link to="/product" className="Links">
+          <p>Product</p>
         </Link>
-        <Link to="/contact" className="ContactLink">
-          <label>Contact US!</label>
+
+        {/* Redirect to Contact Component */}
+        <Link to="/contact" className="Links">
+          <p>Contact US!</p>
         </Link>
-      </div>  
-    </nav>
+      </div>  {/* navbarLinks */}
+    </nav>  {/* navbar */}
     </>
   );
 };

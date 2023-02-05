@@ -5,52 +5,23 @@
     box-sizing: border-box;
 }
 
+/*navbarLinks Div Styling ========================================================================================================================================================================*/
 .navbarLinks {
+    /*Center Links in the Middle*/
     display: flex;
     justify-content: center;
-    text-align: center;
 }
 
-.HomeLink {
+/*Links Styling //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.Links {
     font-size: 2rem;
+    color:black;
     text-decoration: none;
     color: black;
-    margin: 0.5em;
+    margin: 0.5em;  
 }
 
-.HomeLink:hover {
-    text-decoration: underline solid 2px;
-}
-
-.AboutLink {
-    font-size: 2rem;
-    text-decoration: none;
-    color: black;
-    margin: 0.5em;
-}
-
-.AboutLink:hover {
-    text-decoration: underline solid 2px;
-}
-
-.ProductLink {
-    font-size: 2rem;
-    text-decoration: none;
-    color: black;
-    margin: 0.5em;
-}
-
-.ProductLink:hover {
-    text-decoration: underline solid 2px;
-}
-
-.ContactLink {
-    font-size: 2rem;
-    text-decoration: none;
-    color: black;
-    margin: 0.5em;
-}
-
-.ContactLink:hover {
+/*Links on Hover Styling //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.Links:hover {
     text-decoration: underline solid 2px;
 }
