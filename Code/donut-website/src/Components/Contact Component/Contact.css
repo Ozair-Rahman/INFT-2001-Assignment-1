@@ -49,3 +49,17 @@
     font-family: 'Avenir Next', sans-serif;
 }
 
+/* Contact Info Div Styling =====================================================================================================================================================================*/
+.contactInfo {
+    text-align: center;
+}
+
+.emailTitle {
+    font-size: 2rem;
+    font-family: 'Arvo', serif;
+}
+
+.emailText {
+    font-family: 'Avenir Next', sans-serif;
+    font-size: 1.5rem;
+}

@@ -57,15 +57,18 @@ const ContactComponent = () => {
           {/* Send Btn */}
           <input type="submit" value="Send" className='sendBtn' />
         </form>
-        <h1>Social Media</h1>
+
+        {/* Contact Info */}
         {/* Social Media Links */}
-        <SocialComponent />
-        <h1>Email</h1>
-        <p>info@cravedoughnuts.com</p>
-        <LocationComponent />
-        <h1>Phone Number</h1>
-        <p>1-800-DOUGHNUTS</p>
-        <HoursOperationComponent />
+        <div className="contactInfo">
+          <SocialComponent />
+          <h1 className='emailTitle'>Email</h1>
+          <p className='emailText'>info@cravedoughnuts.com</p>
+          <LocationComponent />
+          <h1 className='emailTitle'>Phone Number</h1>
+          <p className='emailText'>1-800-DOUGHNUTS</p>
+          <HoursOperationComponent />
+        </div> {/* contactInfo */}
       </div> {/* emailFormDiv */}
     <Footer /> {/* Footer */}
     </>
