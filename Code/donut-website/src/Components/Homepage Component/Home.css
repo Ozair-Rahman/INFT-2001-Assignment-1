@@ -18,8 +18,10 @@
 }
 /* localIngredientsSection Div Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .localIngredientsSection {
+    display: grid;
+    place-items: center;
+    text-align: center;
     padding: 2rem;
-    width: 100vw;
 }
 
 /* aboutProductTitle Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
@@ -50,7 +52,6 @@
 
 /*testimonials Div Styling  ============================================================================================================*/
 .testimonials {
-    display: flex;
     text-align: center;
     font-family: 'Avenir Next',sans-serif;
 }

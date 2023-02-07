@@ -12,8 +12,7 @@ const ContactComponent = () => {
   document.title = 'Contact Us - Crave Doughnuts'; // Change Title
 
   // Send Emails
-  function sendEmail(e) {
-
+  function sendEmail(e) {          
     // Prevent Default Action When Btn is Push
     e.preventDefault();
 

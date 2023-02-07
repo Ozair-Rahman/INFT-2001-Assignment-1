@@ -1,8 +1,8 @@
 // Imports
 import Footer from "../Footer Component/Footer";
-import HoursOperationComponent from "../Hours Operation Component/HoursOperationComponent";
 import LocationComponent from "../Location Component/LocationComponent";
 import NavBar from "../Navbar Component/NavBar";
+import HoursOperationComponent from "../Hours Operation Component/HoursOperationComponent";
 import './Home.css' // Import CSS
 
 const HomeComponent = () => {

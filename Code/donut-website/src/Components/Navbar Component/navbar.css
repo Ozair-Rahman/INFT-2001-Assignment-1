@@ -7,13 +7,14 @@
 
 /*nav Styling ========================================================================================================================================================================*/
 nav {
+    display: grid;
+    place-items: center;
     border-bottom: solid 1px lightgray;
 }
 
 /*navbarLinks Div Styling ========================================================================================================================================================================*/
 .navbarLinks {
     /*Center Links in the Middle*/
-    display: flex;
     justify-content: center;
     font-family: 'Avenir Next',sans-serif;
 }

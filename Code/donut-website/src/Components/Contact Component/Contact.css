@@ -15,7 +15,7 @@
     font-size: 3rem;
     /*Center Form*/
     display: grid;
-    place-content: center;
+    place-items: center;
     padding: 1em;
 }
 
@@ -25,6 +25,11 @@
     display: grid;
     place-items: center;
     padding: 2rem;
+}
+
+.emailForm {
+    display: grid;
+    place-items: center;
 }
 
 .nameLabel {
@@ -50,7 +55,7 @@
 }
 
 /* Contact Info Div Styling =====================================================================================================================================================================*/
-.contactInfo {
+.contactInfo { 
     text-align: center;
 }
 
