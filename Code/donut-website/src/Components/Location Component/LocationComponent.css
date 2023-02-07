@@ -1,0 +1,19 @@
+/*General Styling ============================================================================================================*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*locationHeading Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.locationHeading {
+    font-size: 2rem;
+    padding-bottom: 0.5em;
+    font-family: 'Arvo',serif;
+}
+
+/*locationSubHeading Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.locationSubHeading {
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}

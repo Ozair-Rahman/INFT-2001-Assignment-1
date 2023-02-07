@@ -23,7 +23,7 @@
 .emailFormDiv {
     font-family: 'Avenir Next', sans-serif;
     display: grid;
-    place-content: center;
+    place-items: center;
     padding: 2rem;
 }
 
@@ -48,3 +48,4 @@
     margin: 1em;
     font-family: 'Avenir Next', sans-serif;
 }
+

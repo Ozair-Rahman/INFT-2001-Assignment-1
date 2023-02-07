@@ -1,5 +1,6 @@
 // Imports
 import { Link } from 'react-router-dom' // Import Links from react-router to redirect pages
+import SocialComponent from '../Social Media Component/SocialComponent';
 import './Footer.css' // Import CSS
  
 const Footer = () => {
@@ -28,13 +29,7 @@ const Footer = () => {
             <p>info@cravedoughnuts.com</p>
 
             {/* Social Media Links */}
-            <div className="socialLogo">
-                {/* Instagram Link */}
-                <a className='socialLink' href='https://www.instagram.com/crave.doughnuts/'><img src="https://img.icons8.com/ios-glyphs/30/null/instagram-new.png" alt="Instagram Link" /></a>
-
-                {/* Facebook Link */}
-                <a className='socialLink' href='https://www.facebook.com/cravedoughnuts'><img src="https://img.icons8.com/ios-glyphs/30/null/facebook-new.png" alt="Facebook Link" /></a>
-            </div>
+            <SocialComponent />
         </footer>
         </>
      );

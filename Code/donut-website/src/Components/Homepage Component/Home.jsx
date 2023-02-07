@@ -1,5 +1,7 @@
 // Imports
 import Footer from "../Footer Component/Footer";
+import HoursOperationComponent from "../Hours Operation Component/HoursOperationComponent";
+import LocationComponent from "../Location Component/LocationComponent";
 import NavBar from "../Navbar Component/NavBar";
 import './Home.css' // Import CSS
 
@@ -65,18 +67,10 @@ const HomeComponent = () => {
 
       {/* operationHours Section */}
       <div className="operationHours">
-
         {/* Location */}
-        <h1 className="locationHeading">Location</h1>
-        <p className="locationSubHeading">102 Lupin Drive Whitby, Ontario</p>
-
+        <LocationComponent />
         {/* Hours of Operation */}
-        <h1 className="hoHeading">Hours of Operation</h1>
-        <h2 className="daysHeading">Wednesday - Sunday </h2>
-        <p className="hoursHeading">8-5 PM OR SOLD OUT!</p>
-        <p className="hoursHeading">8-9 AM PREORDER PICKUP ONLY</p>
-        <h2>WALK INS:</h2>
-        <p className="walkinSubHeading">9-5 PM OR UNTIL SOLD OUT!</p>
+        <HoursOperationComponent />
       </div> {/* operationHours */}
 
       <Footer />  {/* Footer */}

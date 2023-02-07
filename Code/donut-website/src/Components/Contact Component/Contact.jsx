@@ -3,6 +3,9 @@ import './Contact.css';
 import Footer from "../Footer Component/Footer";
 import NavBar from "../Navbar Component/NavBar";
 import emailjs from 'emailjs-com'; // Import API to Send Emails
+import LocationComponent from '../Location Component/LocationComponent';
+import HoursOperationComponent from '../Hours Operation Component/HoursOperationComponent';
+import SocialComponent from '../Social Media Component/SocialComponent';
 
 const ContactComponent = () => {
 
@@ -54,7 +57,15 @@ const ContactComponent = () => {
           {/* Send Btn */}
           <input type="submit" value="Send" className='sendBtn' />
         </form>
-
+        <h1>Social Media</h1>
+        {/* Social Media Links */}
+        <SocialComponent />
+        <h1>Email</h1>
+        <p>info@cravedoughnuts.com</p>
+        <LocationComponent />
+        <h1>Phone Number</h1>
+        <p>1-800-DOUGHNUTS</p>
+        <HoursOperationComponent />
       </div> {/* emailFormDiv */}
     <Footer /> {/* Footer */}
     </>
