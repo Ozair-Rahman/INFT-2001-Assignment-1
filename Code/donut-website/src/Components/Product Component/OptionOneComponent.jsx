@@ -38,7 +38,7 @@ const OptionOneComponent = () => {
                     <li>Cosmic Brownie</li>
                     <li>Honey Vanilla Cruller</li>
                 </ul>
-
+                <br/>
                 {/* Product Allergy Warning */}
                 <p className='optionOneWarningTitle'>*Please Note: This box is nut free!</p>
                 <br/>

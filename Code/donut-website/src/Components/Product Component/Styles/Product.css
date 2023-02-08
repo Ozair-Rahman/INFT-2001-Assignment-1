@@ -27,6 +27,13 @@
     border: solid 1px black;
     background-color: antiquewhite;
     padding: 4rem;
+    width: 510px;
+}
+
+@media screen and (max-width:550px) {
+    .optionOneOption {
+        width: auto;
+    }
 }
 
 .optionOneOption:hover {

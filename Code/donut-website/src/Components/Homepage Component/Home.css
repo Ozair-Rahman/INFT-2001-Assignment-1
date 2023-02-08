@@ -12,15 +12,23 @@
 
 /* aboutProduct Div Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .aboutProduct {
+    display: flex;
+    place-content: center;
+    text-align: center;
     background-color: #81cec4;
     padding: 3rem;
     font-family: 'Arvo',serif;
 }
+
+@media screen and (max-width:550px) {
+    .aboutProduct {
+        display: grid;
+        place-content: center;
+    }
+}
+
 /* localIngredientsSection Div Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .localIngredientsSection {
-    display: grid;
-    place-items: center;
-    text-align: center;
     padding: 2rem;
 }
 
@@ -33,7 +41,18 @@
 /* aboutProductDescription Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .aboutProductDescription {
     font-size: 1.5rem;
-    padding-top: 2rem;
+    padding-top: 1em;
+    font-family: 'Avenir Next',sans-serif;
+}
+
+.aboutProductImage {
+    width: 400px;
+}
+
+@media screen and (max-width:550px) {
+    .aboutProductImage {
+        width: 300px;
+    }
 }
 
 /*Testinomial Styling ============================================================================================================*/
@@ -52,8 +71,15 @@
 
 /*testimonials Div Styling  ============================================================================================================*/
 .testimonials {
+    display: flex;
     text-align: center;
     font-family: 'Avenir Next',sans-serif;
+}
+
+@media screen and (max-width:550px) {
+    .testimonials {
+        display: grid;    
+    }
 }
 
 /*testimonialOne Div Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

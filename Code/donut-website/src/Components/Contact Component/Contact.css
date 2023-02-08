@@ -14,8 +14,7 @@
     font-family: 'Arvo', serif;
     font-size: 3rem;
     /*Center Form*/
-    display: grid;
-    place-items: center;
+    text-align: center;
     padding: 1em;
 }
 
@@ -28,8 +27,14 @@
 }
 
 .emailForm {
-    display: grid;
+    display: flex;
     place-items: center;
+}
+
+@media screen and (max-width:550px) {
+    .emailForm {
+        display: grid;
+    }
 }
 
 .nameLabel {
