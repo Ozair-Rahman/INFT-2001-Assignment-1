@@ -2,10 +2,16 @@
 import NavBar from "../Navbar Component/NavBar";
 import Footer from "../Footer Component/Footer";
 import './About.css';
+import { useEffect } from "react";
 
 const AboutComponent = () => {
 
     document.title = 'About Us - Crave Doughnuts'; // Change Title Whenb On About Page
+
+    // Scroll to Top Upon Every Render of the Page
+    useEffect(() => {
+        window.scrollTo(0,0)
+    })
 
     return ( 
         <>

@@ -61,12 +61,21 @@
 
 /* Contact Info Div Styling =====================================================================================================================================================================*/
 .contactInfo { 
+    align-content: left;
     text-align: center;
+}
+
+.emailInfo {
+    padding: 1rem;
 }
 
 .emailTitle {
     font-size: 2rem;
     font-family: 'Arvo', serif;
+}
+
+.phoneInfo {
+    padding: 1rem;
 }
 
 .emailText {

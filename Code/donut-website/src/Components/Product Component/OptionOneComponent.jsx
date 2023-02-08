@@ -2,10 +2,15 @@
 import './Styles/OptionOneStyles.css';
 import NavBar from "../Navbar Component/NavBar";
 import Footer from '../Footer Component/Footer';
+import { useEffect } from 'react';
 
 const OptionOneComponent = () => {
 
     document.title = 'Crave Option 1 - Half Dozen'; // Change Title When On Page
+
+    useEffect(() => {
+        window.scrollTo(0,0);
+    });
 
     return (
         <>

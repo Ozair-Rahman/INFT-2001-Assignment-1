@@ -25,8 +25,8 @@ const Footer = () => {
             <p>FAQ</p>
             </Link>
 
-            <h1>Have Any Questions? Contact Us by Email</h1>
-            <p className="footerLink">info@cravedoughnuts.com</p>
+            <h1 className='emailTitle'>Have Any Questions? Contact Us by Email</h1>
+            <p className="emailText">info@cravedoughnuts.com</p>
 
             {/* Social Media Links */}
             <SocialComponent />

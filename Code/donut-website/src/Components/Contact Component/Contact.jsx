@@ -6,10 +6,16 @@ import emailjs from 'emailjs-com'; // Import API to Send Emails
 import LocationComponent from '../Location Component/LocationComponent';
 import HoursOperationComponent from '../Hours Operation Component/HoursOperationComponent';
 import SocialComponent from '../Social Media Component/SocialComponent';
+import { useEffect } from 'react';
 
 const ContactComponent = () => {
 
   document.title = 'Contact Us - Crave Doughnuts'; // Change Title
+
+  // Scroll to Top Upon Render 
+  useEffect(() => {
+    window.scrollTo(0,0); 
+  })
 
   // Send Emails
   function sendEmail(e) {          
@@ -61,11 +67,15 @@ const ContactComponent = () => {
         {/* Social Media Links */}
         <div className="contactInfo">
           <SocialComponent />
-          <h1 className='emailTitle'>Email</h1>
-          <p className='emailText'>info@cravedoughnuts.com</p>
+          <div className="emailInfo">
+            <h1 className='emailTitle'>Email</h1>
+            <p className='emailText'>info@cravedoughnuts.com</p>
+          </div>
           <LocationComponent />
-          <h1 className='emailTitle'>Phone Number</h1>
-          <p className='emailText'>1-800-DOUGHNUTS</p>
+          <div className="phoneInfo">
+            <h1 className='emailTitle'>Phone Number</h1>
+            <p className='emailText'>1-800-DOUGHNUTS</p>
+          </div>
           <HoursOperationComponent />
         </div> {/* contactInfo */}
       </div> {/* emailFormDiv */}

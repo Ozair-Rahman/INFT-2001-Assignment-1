@@ -2,10 +2,16 @@
 import NavBar from "../Navbar Component/NavBar";
 import Footer from '../Footer Component/Footer';
 import './Styles/OptionOneStyles.css';
+import { useEffect } from "react";
 
 const OptionTwo = () => {
 
     document.title = 'Crave Option 2 - Half Dozen'; // Change Title When On Page
+
+    // Scroll to Top
+    useEffect(() => {
+        window.scrollTo(0,0);
+    });
 
     return ( 
         <>
