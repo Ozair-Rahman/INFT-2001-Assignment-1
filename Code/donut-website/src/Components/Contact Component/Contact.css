@@ -63,6 +63,20 @@
 .contactInfo { 
     align-content: left;
     text-align: center;
+    display: flex;
+}
+
+.contactInfoContent {
+    padding: 2rem;
+}
+
+@media screen and (max-width:550px) {
+    .contactInfo {
+        display: grid;
+    }
+    .contactInfoContent {
+        padding: 0.5rem;
+    }
 }
 
 .emailInfo {

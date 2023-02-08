@@ -66,17 +66,21 @@ const ContactComponent = () => {
         {/* Contact Info */}
         {/* Social Media Links */}
         <div className="contactInfo">
-          <SocialComponent />
-          <div className="emailInfo">
-            <h1 className='emailTitle'>Email</h1>
-            <p className='emailText'>info@cravedoughnuts.com</p>
+          <div className="contactInfoContent">
+            <SocialComponent />
+            <div className="emailInfo">
+              <h1 className='emailTitle'>Email</h1>
+              <p className='emailText'>info@cravedoughnuts.com</p>
+            </div>
+            <LocationComponent />
+            <div className="phoneInfo">
+              <h1 className='emailTitle'>Phone Number</h1>
+              <p className='emailText'>1-800-DOUGHNUTS</p>
+            </div>
           </div>
-          <LocationComponent />
-          <div className="phoneInfo">
-            <h1 className='emailTitle'>Phone Number</h1>
-            <p className='emailText'>1-800-DOUGHNUTS</p>
+          <div className="contactInfoContent">
+            <HoursOperationComponent />
           </div>
-          <HoursOperationComponent />
         </div> {/* contactInfo */}
       </div> {/* emailFormDiv */}
     <Footer /> {/* Footer */}
