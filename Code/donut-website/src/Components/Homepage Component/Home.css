@@ -23,7 +23,6 @@
 @media screen and (max-width:550px) {
     .aboutProduct {
         display: grid;
-        place-content: center;
     }
 }
 

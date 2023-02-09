@@ -5,14 +5,6 @@ import './navbar.css'; // Import CSS
 const NavBar = () => {
   return (
     <>
-    {/* Link to Homepage When Logo is Clicked */}
-    <Link to='/'>
-      <img 
-      className="returnHomeViaLogo"
-      src="https://cdn.shopify.com/s/files/1/0273/3142/8435/files/CRAVE_wordmark_curve_180x.png?v=1614354953" 
-      alt="Home Logo"
-      />
-    </Link>
     {/* navbar */}
     <nav> 
       {/* Link to Homepage When Logo is Clicked */}
@@ -20,6 +12,7 @@ const NavBar = () => {
         <img 
         src="https://cdn.shopify.com/s/files/1/0273/3142/8435/files/CRAVE_wordmark_curve_180x.png?v=1614354953" 
         alt="Home Logo"
+        className="returnHomeViaLogo"
         />
       </Link>
       {/* navbarLink Div */}
