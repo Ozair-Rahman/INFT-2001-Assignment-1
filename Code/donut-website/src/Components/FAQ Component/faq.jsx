@@ -1,4 +1,5 @@
 // Imports
+import { useEffect } from "react";
 import Footer from "../Footer Component/Footer";
 import NavBar from "../Navbar Component/NavBar";
 import './faq.css';
@@ -7,6 +8,9 @@ const FaqComponent = () => {
 
     document.title = 'FAQ – Crave Doughnuts'; // Change Title 
 
+    // Scroll to Top Upon Render
+    useEffect(() => window.scrollTo(0,0));
+    
     return ( 
         <>
         <NavBar /> {/* Navbar */}

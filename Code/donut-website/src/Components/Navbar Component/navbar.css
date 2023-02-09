@@ -5,25 +5,35 @@
     box-sizing: border-box;
 }
 
+/*Logo Styling //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.returnHomeViaLogo {
+    padding: 2rem;
+}
+
 /*nav Styling ========================================================================================================================================================================*/
 nav {
     border-bottom: solid 1px lightgray;
+    font-family: 'Avenir Next',sans-serif;
 }
 
-/*navbarLinks Div Styling ========================================================================================================================================================================*/
 .navbarLinks {
-    /*Center Links in the Middle*/
     display: flex;
-    justify-content: center;
-    font-family: 'Avenir Next',sans-serif;
+    place-content: center;
+}
+
+@media screen and (max-width: 550px) {
+    .navbarLinks {
+        display: grid;
+        place-items: center;
+    }
 }
 
 /*Links Styling //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .Links {
+    place-content: center;
     font-size: 2rem;
     color:black;
     text-decoration: none;
-    color: black;
     margin: 0.5em;  
 }
 

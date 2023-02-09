@@ -1,11 +1,19 @@
 // Imports
 import Footer from "../Footer Component/Footer";
+import LocationComponent from "../Location Component/LocationComponent";
 import NavBar from "../Navbar Component/NavBar";
+import HoursOperationComponent from "../Hours Operation Component/HoursOperationComponent";
 import './Home.css' // Import CSS
+import { useEffect } from "react";
 
 const HomeComponent = () => {
 
   document.title = 'Crave Doughnuts'; // Change Title When on HomePage
+
+  // Scroll to Top of Page Upon Render
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  })
 
   return (
     <>
@@ -15,23 +23,30 @@ const HomeComponent = () => {
       <div className="aboutProduct">
 
         {/* Local Ingredient Section */}
-        <div className="localIngredientsSection">
+        <div className="aboutProductDiv">
           <h1 className="aboutProductTitle">Local Ingredients</h1>
-          <img src="//cdn.shopify.com/s/files/1/0273/3142/8435/files/PBJ_4_180x.jpg?v=1614354953 180w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/PBJ_4_360x.jpg?v=1614354953 360w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/PBJ_4_540x.jpg?v=1614354953 540w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/PBJ_4_720x.jpg?v=1614354953 720w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/PBJ_4_900x.jpg?v=1614354953 900w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/PBJ_4_1080x.jpg?v=1614354953 1080w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/PBJ_4_1296x.jpg?v=1614354953 1296w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/PBJ_4_1512x.jpg?v=1614354953 1512w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/PBJ_4_1728x.jpg?v=1614354953 1728w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/PBJ_4_2048x.jpg?v=1614354953 2048w" alt="Local Ingredients" />
+          <img src="//cdn.shopify.com/s/files/1/0273/3142/8435/files/PBJ_4_180x.jpg?v=1614354953 180w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/PBJ_4_360x.jpg?v=1614354953 360w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/PBJ_4_540x.jpg?v=1614354953 540w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/PBJ_4_720x.jpg?v=1614354953 720w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/PBJ_4_900x.jpg?v=1614354953 900w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/PBJ_4_1080x.jpg?v=1614354953 1080w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/PBJ_4_1296x.jpg?v=1614354953 1296w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/PBJ_4_1512x.jpg?v=1614354953 1512w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/PBJ_4_1728x.jpg?v=1614354953 1728w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/PBJ_4_2048x.jpg?v=1614354953 2048w" 
+          className="aboutProductImage"
+          alt=""
+           />
           <p className="aboutProductDescription">Crave was created from a love for doughnuts. Handmade from scratch using fresh and locally sourced, high quality ingredients, all of our doughnuts are made in-house daily.</p>
-        </div> {/* localIngredientsSection */}
+        </div> {/* aboutProductDiv */}
 
         {/* Vegan Section */}
-        <div className="localIngredientsSection">
+        <div className="aboutProductDiv">
           <h1 className="aboutProductTitle">Vegan</h1>
-          <img src="//cdn.shopify.com/s/files/1/0273/3142/8435/files/Vegan_Raspberry_3_180x.jpg?v=1614354953 180w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Vegan_Raspberry_3_360x.jpg?v=1614354953 360w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Vegan_Raspberry_3_540x.jpg?v=1614354953 540w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Vegan_Raspberry_3_720x.jpg?v=1614354953 720w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Vegan_Raspberry_3_900x.jpg?v=1614354953 900w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Vegan_Raspberry_3_1080x.jpg?v=1614354953 1080w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Vegan_Raspberry_3_1296x.jpg?v=1614354953 1296w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Vegan_Raspberry_3_1512x.jpg?v=1614354953 1512w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Vegan_Raspberry_3_1728x.jpg?v=1614354953 1728w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Vegan_Raspberry_3_2048x.jpg?v=1614354953 2048w" alt="Vegan" />
+          <img src="//cdn.shopify.com/s/files/1/0273/3142/8435/files/Vegan_Raspberry_3_180x.jpg?v=1614354953 180w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Vegan_Raspberry_3_360x.jpg?v=1614354953 360w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Vegan_Raspberry_3_540x.jpg?v=1614354953 540w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Vegan_Raspberry_3_720x.jpg?v=1614354953 720w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Vegan_Raspberry_3_900x.jpg?v=1614354953 900w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Vegan_Raspberry_3_1080x.jpg?v=1614354953 1080w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Vegan_Raspberry_3_1296x.jpg?v=1614354953 1296w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Vegan_Raspberry_3_1512x.jpg?v=1614354953 1512w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Vegan_Raspberry_3_1728x.jpg?v=1614354953 1728w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Vegan_Raspberry_3_2048x.jpg?v=1614354953 2048w" alt="Vegan" 
+          className="aboutProductImage"
+          />
           <p className="aboutProductDescription">We are proud to offer dairy free doughnuts to all of our vegan customers and they are just as tasty and delicious as our other doughnuts. You won't even be able to taste the difference.</p>
         </div> {/* veganSection */}
 
         {/* Flavour Innovation Section */}
-        <div className="localIngredientsSection">
+        <div className="aboutProductDiv">
           <h1 className="aboutProductTitle">Flavour Innovations</h1>
-          <img src="//cdn.shopify.com/s/files/1/0273/3142/8435/files/Orange_Doughnut_180x.jpg?v=1614354953 180w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Orange_Doughnut_360x.jpg?v=1614354953 360w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Orange_Doughnut_540x.jpg?v=1614354953 540w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Orange_Doughnut_720x.jpg?v=1614354953 720w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Orange_Doughnut_900x.jpg?v=1614354953 900w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Orange_Doughnut_1080x.jpg?v=1614354953 1080w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Orange_Doughnut_1296x.jpg?v=1614354953 1296w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Orange_Doughnut_1512x.jpg?v=1614354953 1512w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Orange_Doughnut_1728x.jpg?v=1614354953 1728w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Orange_Doughnut_2048x.jpg?v=1614354953 2048w" alt="Flavor" />
+          <img src="//cdn.shopify.com/s/files/1/0273/3142/8435/files/Orange_Doughnut_180x.jpg?v=1614354953 180w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Orange_Doughnut_360x.jpg?v=1614354953 360w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Orange_Doughnut_540x.jpg?v=1614354953 540w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Orange_Doughnut_720x.jpg?v=1614354953 720w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Orange_Doughnut_900x.jpg?v=1614354953 900w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Orange_Doughnut_1080x.jpg?v=1614354953 1080w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Orange_Doughnut_1296x.jpg?v=1614354953 1296w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Orange_Doughnut_1512x.jpg?v=1614354953 1512w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Orange_Doughnut_1728x.jpg?v=1614354953 1728w, //cdn.shopify.com/s/files/1/0273/3142/8435/files/Orange_Doughnut_2048x.jpg?v=1614354953 2048w" alt="Flavor" 
+          className="aboutProductImage"
+          />
           <p className="aboutProductDescription">We love creating delicious doughnuts with exciting new flavours and fresh seasonal ingredients. We are constantly updating our menu, follow us on Instagram and Facebook.</p>
         </div> {/* flavorSection */}
       </div> {/* aboutProduct */}
@@ -65,20 +80,12 @@ const HomeComponent = () => {
 
       {/* operationHours Section */}
       <div className="operationHours">
-
         {/* Location */}
-        <h1 className="locationHeading">Location</h1>
-        <p className="locationSubHeading">102 Lupin Drive Whitby, Ontario</p>
-
+        <LocationComponent />
         {/* Hours of Operation */}
-        <h1 className="hoHeading">Hours of Operation</h1>
-        <h2 className="daysHeading">Wednesday - Sunday </h2>
-        <p className="hoursHeading">8-5 PM OR SOLD OUT!</p>
-        <p className="hoursHeading">8-9 AM PREORDER PICKUP ONLY</p>
-        <h2>WALK INS:</h2>
-        <p className="walkinSubHeading">9-5 PM OR UNTIL SOLD OUT!</p>
+        <HoursOperationComponent />
       </div> {/* operationHours */}
-
+      
       <Footer />  {/* Footer */}
     </> 
   );

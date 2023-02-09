@@ -1,0 +1,42 @@
+/*Imports =================================================================================================================================================================*/
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+/*General Styling ============================================================================================================*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*Hours of Operation Heading Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.hoHeading {
+    font-family: 'Arvo',serif;
+    font-size: 2rem;
+    padding: 0.5em;
+}
+
+/*days Heading Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.daysHeading {
+    font-size: 1.5rem;
+}
+
+/*hours Heading Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.hoursHeading {
+    font-family: 'Avenir Next' sans-serif;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+/*walkin SubHeading Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.walkinSubHeading {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+/* Social Media Header Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
+.socialMediaHeader  {
+    font-size: 2rem;
+    padding-bottom: 0.5em;
+    font-family: 'Arvo',serif;
+}

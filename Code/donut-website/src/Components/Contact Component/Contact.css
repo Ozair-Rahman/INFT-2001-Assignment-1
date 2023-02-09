@@ -14,8 +14,7 @@
     font-family: 'Arvo', serif;
     font-size: 3rem;
     /*Center Form*/
-    display: grid;
-    place-content: center;
+    text-align: center;
     padding: 1em;
 }
 
@@ -23,8 +22,19 @@
 .emailFormDiv {
     font-family: 'Avenir Next', sans-serif;
     display: grid;
-    place-content: center;
+    place-items: center;
     padding: 2rem;
+}
+
+.emailForm {
+    display: flex;
+    place-items: center;
+}
+
+@media screen and (max-width:550px) {
+    .emailForm {
+        display: grid;
+    }
 }
 
 .nameLabel {
@@ -47,4 +57,38 @@
     font-size: 1rem;
     margin: 1em;
     font-family: 'Avenir Next', sans-serif;
+}
+
+/* Contact Info Div Styling =====================================================================================================================================================================*/
+.contactInfo { 
+    align-content: left;
+    text-align: center;
+    display: flex;
+}
+
+.contactInfoContent {
+    padding: 2rem;
+}
+
+@media screen and (max-width:550px) {
+    .contactInfo {
+        display: grid;
+    }
+    .contactInfoContent {
+        padding: 0.5rem;
+    }
+}
+
+.emailTitle {
+    font-size: 2rem;
+    font-family: 'Arvo', serif;
+}
+
+.emailText {
+    font-family: 'Avenir Next', sans-serif;
+    font-size: 1.5rem;
+}
+
+.phoneInfo {
+    padding: 1rem;
 }

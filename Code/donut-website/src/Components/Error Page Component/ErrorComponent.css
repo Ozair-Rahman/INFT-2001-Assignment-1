@@ -17,11 +17,17 @@
     display: grid;
     place-content: center;
     text-align: center;
-
-    /*Add  padding all around to move div to bottom*/
-    margin: 19rem;
+    align-items: center;
+    width: 100vw;
+    padding: 19rem;
 
     font-family: 'Arvo',serif;
+}
+
+@media screen and (max-width:550px) {
+    .erroMsg {
+        padding: 2rem;
+    }
 }
 
 /*erroMsg Heading Styling //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/

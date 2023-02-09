@@ -2,10 +2,14 @@
 import './Styles/OptionOneStyles.css';
 import NavBar from "../Navbar Component/NavBar";
 import Footer from '../Footer Component/Footer';
+import { useEffect } from 'react';
 
 const OptionFourComponent = () => {
 
     document.title = 'Crave Option 4 - One Dozen Assorted'; // Change Title When On Page
+
+    // Scroll to Top
+    useEffect(() => window.scrollTo(0,0));
 
     return (
         <>

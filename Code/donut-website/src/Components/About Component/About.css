@@ -24,21 +24,42 @@
 /*ourStory Header Styling //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .ourStoryHeader {
     font-size: 3rem;
-    padding: 2em;
+    padding: 1em;
 }
 
 /*founderImage Styling //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .founderImage {
-    width: auto;
-    height: 450px;
+    width: 800px;
+}
+
+@media screen and (max-width: 550px) {
+    .founderImage {
+        width: 343px;
+    }
+}
+
+.otherImage {
+    width: 500px;
+}
+
+@media screen and (max-width: 550px) {
+    .otherImage {
+        width: 300px;
+    }
 }
 
 /*heading Styling //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .heading {
-    font-size: 3rem;
+    font-size: 2.5rem;
     padding: 1em;
     color: #3a3a3a;
 }   
+
+@media screen and (max-width:550px) {
+    .heading {
+        font-size: 2rem;
+    }
+}
 
 /*subHeading Styling //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .subHeading {
@@ -46,4 +67,10 @@
     padding-bottom: 2em;
     font-family: 'Avenir Next', sans-serif;
     color: #414141;
+}
+
+@media screen and (max-width:550px) {
+    .subHeading {
+        font-size: 1rem;
+    }
 }
