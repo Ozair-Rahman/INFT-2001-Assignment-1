@@ -85,7 +85,6 @@ const HomeComponent = () => {
         {/* Hours of Operation */}
         <HoursOperationComponent />
       </div> {/* operationHours */}
-      
       <Footer />  {/* Footer */}
     </> 
   );
