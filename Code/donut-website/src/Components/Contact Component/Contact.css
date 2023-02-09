@@ -79,20 +79,16 @@
     }
 }
 
-.emailInfo {
-    padding: 1rem;
-}
-
 .emailTitle {
     font-size: 2rem;
     font-family: 'Arvo', serif;
 }
 
-.phoneInfo {
-    padding: 1rem;
-}
-
 .emailText {
     font-family: 'Avenir Next', sans-serif;
     font-size: 1.5rem;
+}
+
+.phoneInfo {
+    padding: 1rem;
 }

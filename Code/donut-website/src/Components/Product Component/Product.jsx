@@ -22,6 +22,7 @@ const ProductComponent = () => {
 
             {/* Option 1 Section */}
             <div className="optionContainer">
+                <header className='productComponentTitle'>Doughnuts</header>
                 <Link to="/productOne" className='productLink'> {/* Link to ProductOne Component */}
                     <div className="optionOneOption">
                         <h1>
