@@ -86,14 +86,3 @@
     padding-top: 1rem;
     font-size: 2rem;
 }
-
-/*Operation Hours Styling ============================================================================================================*/
-.operationHours {
-    padding: 3rem;
-    font-family: 'Avenir Next',sans-serif;
-
-    /* Place In Center of DOM */
-    display: grid;
-    place-items: center;
-}
-
