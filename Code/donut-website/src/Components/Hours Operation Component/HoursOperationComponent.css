@@ -10,7 +10,6 @@
 
 /*Operation Hours Styling ============================================================================================================*/
 .operationHours {
-    padding: 1rem;
     font-family: 'Avenir Next',sans-serif;
 
     /* Place In Center of DOM */
@@ -23,11 +22,11 @@
 .hoHeading {
     font-family: 'Arvo',serif;
     font-size: 2rem;
-    padding: 0.5em;
+    padding: 0.5rem;
 }
 
 /*days Heading Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
-.heading {
+.daysHeading {
     font-size: 1.5rem;
     padding: 0.5rem;
 }
