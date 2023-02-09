@@ -3,9 +3,9 @@ import './SocialComponent.css';
 const SocialComponent = () => {
     return (
         <>
+        <header className='socialComponentHeader'>Social Links</header>
         {/* Social Media Links */}
         <div className="socialHeader">
-            <header className='socialMediaHeader'>Social Media</header>
             {/* Instagram Link */}
             <a className='socialLink' href='https://www.instagram.com/crave.doughnuts/'><img src="https://img.icons8.com/ios-glyphs/30/null/instagram-new.png" alt="Instagram Link" /></a>
             {/* Facebook Link */}

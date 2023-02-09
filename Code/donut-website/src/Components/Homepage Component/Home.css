@@ -63,6 +63,7 @@
     display: flex;
     text-align: center;
     font-family: 'Avenir Next',sans-serif;
+    padding: 2rem;
 }
 
 @media screen and (max-width:550px) {
