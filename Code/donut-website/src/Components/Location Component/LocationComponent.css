@@ -10,10 +10,12 @@
     font-size: 2rem;
     padding-bottom: 0.5em;
     font-family: 'Arvo',serif;
+    text-align: center;
 }
 
 /*locationSubHeading Styling ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////*/
 .locationSubHeading {
     font-size: 1.5rem;
     padding-bottom: 1rem;
+    text-align: center;
 }
